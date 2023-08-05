@@ -1,0 +1,97 @@
+<!-- En este archivo practicaremos la estructura de tablas
+    en 'html'. Cabe aclarar que este ejercicio lo realizamos
+    por motus propio ya que en la guia teorica de EGG no se
+    plantea una ejercitacion para practicar esta tipo de estructura -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+    </head>
+    
+    <body>
+    
+        <h1>Ahumada Luciano Gaston</h1>
+    
+        <img src="../imagenes/avatar.jpg" width="250" height="200" alt="Avatar Personal">
+    
+        <br>
+        <p>
+            ¡Hola a todos! <strong>Mi nombre es <i>Luciano</i></strong>, y estoy emocionado/a de compartir con ustedes mi
+            pasión por la programación. Soy un estudiante apasionado de la tecnología y
+            el mundo digital.
+        </p>
+    
+        <h2>Aptitudes Personales</h2>
+    
+        <ul>
+    
+            <li>Asertividad</li>
+            <li>Trabajo en equipo</li>
+            <li>Escucha activa</li>
+    
+        </ul>
+    
+        <!-- Planteamos colocar la lista de tecnologias en una
+            tabla en lugar de una lista desordenada, ademas colocamos
+            un porcentaje al lado representando el nivel de 
+            conocimiento que consideramos de cada una (aunque esto
+            no se recomienda realizarlo en un CV)-->
+
+        <table border="1">
+
+            <!-- Le asignamos el valor de 1 al atributro border
+            para que sean visibles en el navegador los bordes de la
+            tabla -->
+
+            <tr>
+
+                <!-- En este ejemplo, hemos utilizado el atributo
+                'colspan' en la celda del encabezado <th> para 
+                indicar que esa celda abarca tres columnas (colspan="3"). 
+                Esto permite que el texto "Encabezado de varias columnas"
+                ocupe todo el ancho de las tres columnas. -->
+
+                <th colspan="2">TECNOLOGIAS</th>
+
+            </tr>
+           
+            <!-- La etiqueta 'tr' sirve para crear columnas -->
+            <tr>
+                <!-- La etiqueta 'td' sirve para crear filas -->
+                <td>JAVA</td>
+                <td>40%</td>
+            </tr>
+
+            <tr>
+
+                <td>GIT</td>
+                <td>50%</td>
+
+            </tr>
+
+            <tr>
+
+                <td>HTML</td>
+                <td>10%</td>
+
+            </tr>
+
+        </table>
+        <h2>Redes</h2>
+    
+        <ul>
+    
+            <li><a href="https://www.linkedin.com/in/lucianoahumada07/">LinkedIn</a></li>
+        
+        </ul>
+    
+        <a href="https://www.youtube.com"><img src="../imagenes/youtubelogo.png" aling="left" width="200" height="150" alt="Canal Personal"></a>
+    
+    </body>
+    
+    </html>

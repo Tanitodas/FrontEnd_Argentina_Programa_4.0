@@ -1,0 +1,120 @@
+/*
+    Estilos de etiquetas HTML
+*/
+
+    h1{
+
+        color: #0d9785;
+
+    }
+
+    table {
+        border-collapse: collapse; /* Combina los bordes de las celdas */
+        width: 100%; /* Ancho de la tabla */
+        color: green;
+    }
+    
+    td, th {
+        border: 1px solid #999; /* Grosor y color del borde de las celdas */
+        padding: 8px; /* Espacio interno dentro de las celdas */
+        text-align: center; /* Alineación del contenido en el centro */
+    }
+
+    div.p.a{
+
+        color: #0d9785;
+
+    }
+
+/*
+    Estilos de hipervinculos HTML
+*/
+    #enlace1{
+
+        color: violet;
+
+    }
+
+    #enlace2{
+
+        color: darkolivegreen;
+
+    }
+
+    a:link{
+        color: red; /* Color del texto del enlace */
+        text-decoration: underline; /* Quita la subrayado por defecto del enlace */
+    }
+    
+        /* Estilo cuando el enlace está siendo visitado */
+    a:visited {
+        color-scheme: #CCC; /* Color del texto del enlace visitado */
+    }
+    
+    /* Estilo cuando el enlace es señalado con el cursor */
+    a:hover {
+        background-color:#999;
+        color:black; /* Color del texto del enlace al pasar el cursor sobre él */
+        text-decoration: none; /* Subrayado al pasar el cursor sobre el enlace */
+    }
+    
+    /* Estilo cuando el enlace está activo, por ejemplo, al hacer clic */
+    a:active {
+        color: green; /* Color del texto del enlace activo */
+    }
+
+/*
+    Estilos de 'id' HTML
+*/
+
+    #asd1 {
+
+        color: red;
+
+    }
+
+    #subtitulo {
+
+        color: blue;
+
+    }
+
+    #adicional {
+
+        color: darkolivegreen;
+
+    }
+
+    #especial {
+
+        color: darkorchid;
+        
+    }
+
+/*
+    Estilos de 'clases' HTML
+*/
+
+    .destacado{
+
+        color: coral;
+
+    }
+
+    .especial {
+        
+        color: purple;
+
+    }
+
+    .tabla1 {
+
+        color:chocolate;
+
+    }
+
+    .tabla2{
+
+        color: red;
+
+    }

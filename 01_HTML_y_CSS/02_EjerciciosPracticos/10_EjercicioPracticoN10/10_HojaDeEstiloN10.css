@@ -1,0 +1,25 @@
+/*
+
+    Modificamos y sobreescribimos el estilo que viene dado por bootstrap
+
+*/
+
+.display-1 {
+
+    background-color: burlywood;
+    font-family:cursive;
+
+}
+
+.display-2 {
+
+    background-color: cornflowerblue;
+    font-size: 55px;
+
+}
+
+.lead {
+
+    color:darkgray;
+
+}

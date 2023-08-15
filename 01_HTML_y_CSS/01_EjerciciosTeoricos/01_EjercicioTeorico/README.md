@@ -4,7 +4,7 @@
 
 Corrige el siguiente código:
 
-CODIGO SIN CORRECCIONES: asdasd
+CODIGO SIN CORRECCIONES: 
 
    
     Array<int> listado = new ArrayList;  

@@ -1,0 +1,82 @@
+
+.encabezado { 
+
+    /* Propiedades del contenedor del encabezado */
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    position:static;
+    background-color: rgb(230, 173, 99);
+    padding: 0%;
+
+    /* Propiedades del texto */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(56, 46, 41);
+
+}
+
+.titulosSecundarios {
+
+    /* Propiedades del contenedor del encabezado secundario */
+    width: 100%;
+    text-align: left;
+    position:static;
+    padding: 0%;
+
+    /* Propiedades del texto */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:grey;
+
+}
+
+#lista1 {
+
+    /* Propiedades del contenedor de la lista */
+    width: 100%;
+    text-align: left;
+    position:static;
+    padding-left: 50px;
+
+    /* Propiedades del texto */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:grey;
+
+}
+
+#lista2 {
+
+    /* Propiedades del contenedor de la lista */
+    width: 100%;
+    text-align: left;
+    position:static;
+    padding-left: 50px;
+
+    /* Propiedades del texto */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(89, 87, 228);
+
+}
+
+/* Estilo cuando el enlace está sin utilizar */
+a:link{
+    color: rgb(89, 87, 228); /* Color del texto del enlace */
+    text-decoration: underline; /* Quita la subrayado por defecto del enlace */
+    text-decoration: none;
+}
+
+/* Estilo cuando el enlace está siendo visitado */
+a:visited {
+    color-scheme: #CCC; /* Color del texto del enlace visitado */
+}
+
+/* Estilo cuando el enlace es señalado con el cursor */
+a:hover {
+    background-color:#999;
+    color:black; /* Color del texto del enlace al pasar el cursor sobre él */
+    text-decoration: underline; /* Subrayado al pasar el cursor sobre el enlace */
+}
+
+/* Estilo cuando el enlace está activo, por ejemplo, al hacer clic */
+a:active {
+    color: green; /* Color del texto del enlace activo */
+}

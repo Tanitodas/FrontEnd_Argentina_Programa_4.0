@@ -4,7 +4,7 @@
 
 En este repositorio podemos encontrar una recopilacion de ejercicios propuestos por "EGG Cooperation" en el marco del programa "Argentina Programa 4.0" que  da un curso para desarrollarse como "PROGRAMADOR FULL STACK JUNIOR". En donde se impartieron lecciones acerca de:
 
-1. **Lógica y Algoritmos.** asdasd
+1. **Lógica y Algoritmos.** 
 
 2. **Programacion:**
    + 2.1. *BackEnd :*

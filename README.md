@@ -63,7 +63,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     + Como usar un objeto a traves de otro
     + Las distintas relaciones que existen
     + Cuando usar relaciones
-    + Como diagramar clases y realaciones
+    + Como diagramar clases y realacionesdasdasdas
 
     Den
     Luego nos encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman 

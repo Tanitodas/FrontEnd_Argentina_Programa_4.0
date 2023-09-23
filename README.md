@@ -65,11 +65,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     + Cuando usar relaciones
     + Como diagramar clases y realaciones
 
-    Dentro de esta carpeta nos encontraremos con los siguientes archivos:
-    
-    En primer lugar, el pdf llamado *'03_Guia_Relaciones_entre_Clases'* en el cual se encuentra una explicacion teorica de los conceptos antes       
-    mencionados.
-
+    Den
     Luego nos encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman 
     *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
 
